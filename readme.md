@@ -1,2 +1,3 @@
 # maketh
-Manners maketh man // Makers 💎maketh money 💵
+Manners maketh man // Makers 💎 maketh money 💵
+
