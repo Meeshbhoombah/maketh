@@ -27,3 +27,38 @@ Alan -> Mitchell .... AMOUNT: $1000
     + What if we did?
     + Maintain the registry ourselves
 
+## Bitcoin (blockchain) and bitcoin (crpyto)
+- Provide a way to manage our own money
+- Send money to each other
+- Keep things secure
+    + Cryptography
+
+## Key Parts
+1. Wallets
+2. Transactions
+3. Blocks
+4. Mining
+
+## Wallets
+- Uses a pair of algorithms (aka cryptosystem) called RSA (too technical/dense to dive into now)
+- Wallets have to be signed 
+    + Similar to the pin of a bank account
+- Not really a balance but a list of **transactions**
+
+## Transactions
+- Think of transactions as a state transition function
+- What is state?
+    + The ownership status of all existing bitcoin
+    + Transactions serve as a record of shifiting units (can be thought of as $X
+      moved from A to B)
+
+## Blocks
+- Consist of many transactions
+- Blocks are not actually blocks but Merkle trees
+- Trees of transactions
+
+## Mining
+- Uses the idea of a hash function to operate
+- Find a hash that is preceeded with x # of 1's
+- More 1's = more diffcult
+
