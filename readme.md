@@ -52,3 +52,6 @@ Which can then be activated.
 $ source activate maketh
 ```
 
+## Todo
+[ ] Add detailed explainer of the wallet
+
